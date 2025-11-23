@@ -5,7 +5,7 @@ Using Motion Capture to Animate a 3D Model Using 3D-posenet
 
 By Ethan Banks
 
-![Example use of 3D-posenet](https://i.imgur.com/niCgv5g.gif "Example use of 3D-posenet")
+![](https://i.imgur.com/niCgv5g.gif)
 
 3D-posenet is an experimental web app which utilizes machine learning to allow a user to control the movements of a 3D model through their webcam through motion capture technology. Published by mishig25 in 2018 the app showcases the potential uses of neural networks for use in motion capture with minimal setup costs. In the demo the app allows the user to make use of their webcam to move a sample 3D model. While the demo itself is rather limited in its uses, as it is an open-source project this technology could be used as a baseline for several other uses.  
 
