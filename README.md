@@ -5,6 +5,8 @@ Using Motion Capture to Animate a 3D Model Using 3D-posenet
 
 By Ethan Banks
 
+![Example use of 3D-posenet](https://i.imgur.com/niCgv5g.gif "Example use of 3D-posenet")
+
 3D-posenet is an experimental web app which utilizes machine learning to allow a user to control the movements of a 3D model through their webcam through motion capture technology. Published by mishig25 in 2018 the app showcases the potential uses of neural networks for use in motion capture with minimal setup costs. In the demo the app allows the user to make use of their webcam to move a sample 3D model. While the demo itself is rather limited in its uses, as it is an open-source project this technology could be used as a baseline for several other uses.  
 
 3D-posenet utilizes ReactJS for the handling of rendering the webpage. ReactJS is a common JavaScript library used for webpages. In the case of 3D-posenet React is used for controlling the app, rendering the non 3D parts of the webpage, calling the other technologies, and getting permission to use the user’s webcam. For the 3D parts of the webpage the library BabylonJS is used. BabylonJS is a library that specializes in 3D rendering in a webpage. These two are combined to properly display the 3D model which receives input from the machine learning model.
